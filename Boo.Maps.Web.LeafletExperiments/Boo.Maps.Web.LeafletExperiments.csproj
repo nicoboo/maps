@@ -65,7 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\ui-banner_shadow.png" />
+    <Content Include="img\ui-footer_shadow.png" />
+    <Content Include="img\logo-xp.png" />
     <Content Include="index.html" />
+    <Content Include="LeafletWithin\index.html" />
+    <Content Include="scripts\lib\javascript.util.js" />
+    <Content Include="scripts\lib\jsts.js" />
+    <Content Include="scripts\lib\require.js" />
+    <Content Include="scripts\lib\turf.js" />
+    <Content Include="scripts\lib\turf.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,8 +83,6 @@
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="fonts\" />
-    <Folder Include="img\" />
-    <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
